@@ -1,6 +1,3 @@
-# samutvkenya.github.io
-Official website of SAMU TV KENYA 
-Add extended homepage description
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,6 +40,15 @@ Add extended homepage description
         section {
             margin-bottom: 30px;
         }
+        iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+        }
+        .live {
+            color: red;
+            font-weight: bold;
+        }
         footer {
             background-color: #002147;
             color: #fff;
@@ -53,7 +59,7 @@ Add extended homepage description
 </head>
 <body>
     <header>
-        <h1>Welcome to SAMU TV KENYA</h1>
+        <h1>📺 SAMU TV KENYA <span class="live">🔴 LIVE</span></h1>
         <p>Your trusted source for news, entertainment, and live streaming</p>
     </header>
 
@@ -76,8 +82,13 @@ Add extended homepage description
         </section>
 
         <section id="live">
-            <h2>Live Streaming</h2>
-            <p>Experience real-time broadcasts of our news, shows, and events. Tune in live and never miss a moment.</p>
+            <h2>🔴 SAMU TV LIVE</h2>
+            <p>Now streaming 24/7:</p>
+            <iframe 
+                src="https://www.youtube.com/embed/videoseries?list=PLazHNRREZJPvUAMd3K2HuSqxZJVSR5BdU&autoplay=1&loop=1&mute=1" 
+                allow="autoplay; encrypted-media" 
+                allowfullscreen>
+            </iframe>
         </section>
 
         <section id="contact">
