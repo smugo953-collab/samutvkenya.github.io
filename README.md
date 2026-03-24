@@ -167,3 +167,74 @@ resetHide();
   <p>Your trusted source for news, entertainment, and live streaming</p>
   <p>🎬 Watch SAMU TV KENYA live 24/7! Enjoy breaking news, music, sports, interviews, and exclusive Kenyan entertainment, all in one place.</p>
 </header>
+<!-- Merchandise Section -->
+<section class="merch-section">
+    <h2>Official SAMU TV Merchandise</h2>
+    <div class="merch-container">
+
+        <!-- Merch Item 1 -->
+        <div class="merch-item">
+            <img src="merchandise/tshirts/sample1.jpg" alt="SAMU TV T-Shirt">
+            <p>Official SAMU TV T-Shirt - KSh 1,500</p>
+            <a href="https://wa.me/YOUR_NUMBER?text=I+want+to+buy+this+T-shirt" target="_blank">Order via WhatsApp</a>
+        </div>
+
+        <!-- Merch Item 2 -->
+        <div class="merch-item">
+            <img src="merchandise/hoodies/sample2.jpg" alt="SAMU TV Hoodie">
+            <p>Official SAMU TV Hoodie - KSh 2,500</p>
+            <a href="https://wa.me/YOUR_NUMBER?text=I+want+to+buy+this+Hoodie" target="_blank">Order via WhatsApp</a>
+        </div>
+
+        <!-- Merch Item 3 -->
+        <div class="merch-item">
+            <img src="merchandise/posters/sample3.jpg" alt="SAMU TV Poster">
+            <p>SAMU TV Poster - KSh 500</p>
+            <a href="https://wa.me/YOUR_NUMBER?text=I+want+to+buy+this+Poster" target="_blank">Order via WhatsApp</a>
+        </div>
+
+        .merch-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.merch-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.merch-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.merch-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.merch-item img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.merch-item a {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: #004080;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.merch-item a:hover {
+    background-color: #002147;
+}
