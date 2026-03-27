@@ -3,9 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="SAMU TV Kenya – Live streaming, music, news & entertainment.">
 <title>SAMU TV KENYA</title>
-
 <style>
 body{font-family:Arial,sans-serif;margin:0;background:#f2f2f2;color:#333}
 header{background:#002147;color:#fff;text-align:center;padding:20px}
@@ -21,54 +19,48 @@ button{padding:10px;margin:5px;background:red;color:#fff;border:none;border-radi
 footer{background:#002147;color:#fff;text-align:center;padding:15px;margin-top:20px}
 </style>
 </head>
-
 <body>
 
 <header>
 <h1>SAMU TV KENYA</h1>
 <nav>
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="privacy.html">Privacy</a>
-<a href="terms.html">Terms</a>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="privacy.html">Privacy</a>
+  <a href="terms.html">Terms</a>
 </nav>
 </header>
 
-<div class="ticker">
-🔴 SAMU TV KENYA LIVE 24/7 | News • Music • Entertainment
-</div>
+<div class="ticker">🔴 SAMU TV KENYA LIVE 24/7 | News • Music • Entertainment</div>
 
-<section class="live-container">
-<iframe id="player"
-src="https://www.youtube.com/embed/videoseries?list=PLazHNRREZJPvUAMd3K2HuSqxZJVSR5BdU&autoplay=1&mute=1"
-allowfullscreen>
-</iframe>
-</section>
+<div class="live-container">
+<iframe id="player" src="https://www.youtube.com/embed/videoseries?list=PLazHNRREZJPvUAMd3K2HuSqxZJVSR5BdU&autoplay=1&mute=1" allowfullscreen></iframe>
+</div>
 
 <div class="controls">
 <button onclick="goFull()">Fullscreen</button>
-<button onclick="unmute()">🔊 Sound</button>
+<button onclick="unmute()">Sound</button>
 </div>
 
-<section class="grid">
 <h2>🔥 Featured Videos</h2>
+<div class="grid">
 <iframe src="https://www.youtube.com/embed/videoseries?list=PLazHNRREZJPvUAMd3K2HuSqxZJVSR5BdU"></iframe>
 <iframe src="https://www.youtube.com/embed/videoseries?list=PLazHNRREZJPvUAMd3K2HuSqxZJVSR5BdU"></iframe>
-</section>
+</div>
 
 <footer>
-<p>© 2026 SAMU TV KENYA</p>
-<p>Email: info@samutvkenya.co.ke</p>
+© 2026 SAMU TV KENYA<br>
+Email: info@samutvkenya.co.ke
 </footer>
 
 <script>
 function goFull(){
-let iframe=document.getElementById("player");
-if(iframe.requestFullscreen){iframe.requestFullscreen();}
+  let iframe=document.getElementById("player");
+  if(iframe.requestFullscreen){iframe.requestFullscreen();}
 }
 function unmute(){
-let iframe=document.getElementById("player");
-iframe.src = iframe.src.replace("mute=1","mute=0");
+  let iframe=document.getElementById("player");
+  iframe.src = iframe.src.replace("mute=1","mute=0");
 }
 </script>
 
