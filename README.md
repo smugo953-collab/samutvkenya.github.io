@@ -34,18 +34,18 @@ footer{background:#002147;color:#fff;text-align:center;padding:15px;margin-top:2
 <div class="ticker">🔴 SAMU TV KENYA LIVE 24/7 | News • Music • Entertainment</div>
 
 <div class="live-container">
-<iframe id="player" src="https://www.youtube.com/embed/videoseries?list=PLazHNRREZJPvUAMd3K2HuSqxZJVSR5BdU&autoplay=1&mute=1" allowfullscreen></iframe>
+  <iframe id="player" src="https://www.youtube.com/embed/videoseries?list=PLazHNRREZJPvUAMd3K2HuSqxZJVSR5BdU&autoplay=1&mute=1" allowfullscreen></iframe>
 </div>
 
 <div class="controls">
-<button onclick="goFull()">Fullscreen</button>
-<button onclick="unmute()">Sound</button>
+  <button onclick="goFull()">Fullscreen</button>
+  <button onclick="unmute()">Sound</button>
 </div>
 
 <h2>🔥 Featured Videos</h2>
 <div class="grid">
-<iframe src="https://www.youtube.com/embed/videoseries?list=PLazHNRREZJPvUAMd3K2HuSqxZJVSR5BdU"></iframe>
-<iframe src="https://www.youtube.com/embed/videoseries?list=PLazHNRREZJPvUAMd3K2HuSqxZJVSR5BdU"></iframe>
+  <iframe src="https://www.youtube.com/embed/videoseries?list=PLazHNRREZJPvUAMd3K2HuSqxZJVSR5BdU"></iframe>
+  <iframe src="https://www.youtube.com/embed/videoseries?list=PLazHNRREZJPvUAMd3K2HuSqxZJVSR5BdU"></iframe>
 </div>
 
 <footer>
