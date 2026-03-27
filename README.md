@@ -106,4 +106,105 @@ let hour=new Date().getHours(); if(hour>=18||hour<6){document.body.classList.add
 
 </body>
 </html>
-}
+}<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="About SAMU TV Kenya – Live news, entertainment, and music.">
+<title>About SAMU TV Kenya</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+<h1>SAMU TV KENYA</h1>
+<nav>
+<a href="index.html">Home</a> | 
+<a href="about.html">About</a> | 
+<a href="privacy.html">Privacy Policy</a> | 
+<a href="terms.html">Terms</a>
+</nav>
+</header>
+
+<main>
+<h2>About SAMU TV Kenya</h2>
+<p>SAMU TV Kenya is your trusted source for live news, music, and entertainment content from Kenya. We bring you trending videos, live streaming, interviews, and exclusive coverage from Nairobi and beyond.</p>
+
+<section id="adsense-section">
+<!-- AdSense Placeholder -->
+<div class="adsense-placeholder">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-XXXXXXXXXXXXXXX"
+     data-ad-slot="XXXXXXXXXX"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</section>
+
+</main>
+
+<footer>
+<p>© 2026 SAMU TV KENYA. All rights reserved.</p>
+<p>Email: info@samutvkenya.co.ke</p>
+</footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="About SAMU TV Kenya – Live news, entertainment, and music.">
+<title>About SAMU TV Kenya</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+<h1>SAMU TV KENYA</h1>
+<nav>
+<a href="index.html">Home</a> | 
+<a href="about.html">About</a> | 
+<a href="privacy.html">Privacy Policy</a> | 
+<a href="terms.html">Terms</a>
+</nav>
+</header>
+
+<main>
+<h2>About SAMU TV Kenya</h2>
+<p>SAMU TV Kenya is your trusted source for live news, music, and entertainment content from Kenya. We bring you trending videos, live streaming, interviews, and exclusive coverage from Nairobi and beyond.</p>
+
+<section id="adsense-section">
+<!-- AdSense Placeholder -->
+<div class="adsense-placeholder">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-XXXXXXXXXXXXXXX"
+     data-ad-slot="XXXXXXXXXX"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</section>
+
+</main>
+
+<footer>
+<p>© 2026 SAMU TV KENYA. All rights reserved.</p>
+<p>Email: info@samutvkenya.co.ke</p>
+</footer>
+
+</body>
+</html>https://samutvkenya.github.io/
+https://samutvkenya.github.io/about.html
+https://samutvkenya.github.io/privacy.html
+https://samutvkenya.github.io/terms.html
