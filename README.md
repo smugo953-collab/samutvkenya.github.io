@@ -69,33 +69,28 @@ allowfullscreen></iframe>
 <iframe src="https://www.youtube.com/embed/videoseries?list=PLazHNRREZJPvUAMd3K2HuSqxZJVSR5BdU"></iframe>
 </div>
 
-<!-- About -->
 <section id="about">
 <h2>About Us</h2>
-<p>SAMU TV KENYA is a digital entertainment platform offering live streaming, music, and trending content to a global audience.</p>
+<p>SAMU TV KENYA is a digital entertainment platform offering live streaming, music, and trending content.</p>
 </section>
 
-<!-- Privacy -->
 <section id="privacy">
 <h2>Privacy Policy</h2>
-<p>We use cookies and third-party advertising services such as Google AdSense to display ads. These services may use cookies to show personalized ads based on your visits to this and other websites.</p>
+<p>We use cookies and third-party advertising services such as Google AdSense to display ads.</p>
 </section>
 
-<!-- Terms -->
 <section id="terms">
 <h2>Terms of Service</h2>
-<p>By using this website, you agree not to misuse the content. All media is for entertainment purposes only.</p>
+<p>By using this website, you agree not to misuse the content.</p>
 </section>
 
-<!-- Contact -->
 <section id="contact">
 <h2>Contact</h2>
 <p>Email: info@samutvkenya.co.ke<br>WhatsApp: +254 759 821389</p>
 </section>
 
 <footer>
-© 2026 SAMU TV KENYA<br>
-Email: info@samutvkenya.co.ke
+© 2026 SAMU TV KENYA
 </footer>
 
 <script>
