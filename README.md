@@ -7,4 +7,9 @@ Fullscreen Sound
 🔥 Featured Videos
 <iframe src="https://www.youtube.com/embed/videoseries?list=PLazHNRREZJPvUAMd3K2HuSqxZJVSR5BdU"></iframe> <iframe src="https://www.youtube.com/embed/videoseries?list=PLazHNRREZJPvUAMd3K2HuSqxZJVSR5BdU"></iframe>
 © 2026 SAMU TV KENYA
-Email: info@samutvkenya.co.ke <script> function goFull(){ let iframe=document.getElementById("player"); if(iframe.requestFullscreen){iframe.requestFullscreen();} } function unmute(){ let iframe=document.getElementById("player"); iframe.src = iframe.src.replace("mute=1","mute=0"); } </script>We use cookies and third-party advertising services such as Google AdSense to display ads. These services may use cookies to show personalized ads based on your visits to this and other websites.SAMU TV KENYA is a digital entertainment platform offering live streaming, music, and trending content to a global audience.By using this website, you agree not to misuse the content. All media is for entertainment purposes only.
+Email: info@samutvkenya.co.ke <script> function goFull(){ let iframe=document.getElementById("player"); if(iframe.requestFullscreen){iframe.requestFullscreen();} } function unmute(){ let iframe=document.getElementById("player"); iframe.src = iframe.src.replace("mute=1","mute=0"); } </script>We use cookies and third-party advertising services such as Google AdSense to display ads. These services may use cookies to show personalized ads based on your visits to this and other websites.SAMU TV KENYA is a digital entertainment platform offering live streaming, music, and trending content to a global audience.By using this website, you agree not to misuse the content. All media is for entertainment purposes only.<nav>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#privacy">Privacy</a>
+<a href="#contact">Contact</a>
+</nav>
