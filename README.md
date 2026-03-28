@@ -12,4 +12,6 @@ Email: info@samutvkenya.co.ke <script> function goFull(){ let iframe=document.ge
 <a href="#about">About</a>
 <a href="#privacy">Privacy</a>
 <a href="#contact">Contact</a>
-</nav>
+</nav><section id="about">...</section>
+<section id="privacy">...</section>
+<section id="contact">...</section>
