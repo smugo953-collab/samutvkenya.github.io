@@ -18,79 +18,46 @@ button{padding:10px;margin:5px;background:red;color:#fff;border:none;border-radi
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;padding:10px}
 .grid iframe{width:100%;height:150px;border:0}
 footer{background:#002147;color:#fff;text-align:center;padding:15px;margin-top:20px}
-
-section{
-max-width:900px;
-margin:40px auto;
-padding:20px;
-background:#fff;
-border-radius:10px;
-}
-
-section h2{
-color:#002147;
-}
-
-html{
-scroll-behavior:smooth;
-}
 </style>
 </head>
 
 <body>
 
-<header>SAMU TV KENYA</header>
-
+<header>
+<h1>SAMU TV KENYA</h1>
 <nav>
-<a href="#">Home</a>
-<a href="#about">About</a>
-<a href="#privacy">Privacy</a>
-<a href="#terms">Terms</a>
-<a href="#contact">Contact</a>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="privacy.html">Privacy</a>
+<a href="terms.html">Terms</a>
 </nav>
+</header>
 
-<div class="ticker">🔴 SAMU TV KENYA LIVE 24/7 | News • Music • Entertainment</div>
+<div class="ticker">
+🔴 SAMU TV KENYA LIVE 24/7 | News • Music • Entertainment
+</div>
 
-<div class="live-container">
+<section class="live-container">
 <iframe id="player"
 src="https://www.youtube.com/embed/videoseries?list=PLazHNRREZJPvUAMd3K2HuSqxZJVSR5BdU&autoplay=1&mute=1"
-allowfullscreen></iframe>
-</div>
+allowfullscreen>
+</iframe>
+</section>
 
 <div class="controls">
 <button onclick="goFull()">Fullscreen</button>
-<button onclick="unmute()">Sound</button>
+<button onclick="unmute()">🔊 Sound</button>
 </div>
 
-<h2 style="text-align:center;">🔥 Featured Videos</h2>
-
-<div class="grid">
+<section class="grid">
+<h2>🔥 Featured Videos</h2>
 <iframe src="https://www.youtube.com/embed/videoseries?list=PLazHNRREZJPvUAMd3K2HuSqxZJVSR5BdU"></iframe>
 <iframe src="https://www.youtube.com/embed/videoseries?list=PLazHNRREZJPvUAMd3K2HuSqxZJVSR5BdU"></iframe>
-</div>
-
-<section id="about">
-<h2>About Us</h2>
-<p>SAMU TV KENYA is a digital entertainment platform offering live streaming, music, and trending content.</p>
-</section>
-
-<section id="privacy">
-<h2>Privacy Policy</h2>
-<p>We use cookies and third-party advertising services such as Google AdSense to display ads.</p>
-</section>
-
-<section id="terms">
-<h2>Terms of Service</h2>
-<p>By using this website, you agree not to misuse the content.</p>
-</section>
-
-<section id="contact">
-<h2>Contact</h2>
-<p>Email: info@samutvkenya.co.ke<br>WhatsApp: +254 759 821389</p>
 </section>
 
 <footer>
-© 2026 SAMU TV KENYA
+<p>© 2026 SAMU TV KENYA</p>
+<p>Email: info@samutvkenya.co.ke</p>
 </footer>
 
 <script>
@@ -98,10 +65,9 @@ function goFull(){
 let iframe=document.getElementById("player");
 if(iframe.requestFullscreen){iframe.requestFullscreen();}
 }
-
 function unmute(){
 let iframe=document.getElementById("player");
-iframe.src=iframe.src.replace("mute=1","mute=0");
+iframe.src = iframe.src.replace("mute=1","mute=0");
 }
 </script>
 
